@@ -9,14 +9,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		CPU cpu_test = null;
-		Memory memory_test = null;
-		HardDrive hard_drive_test = null;
+		CPU cpu_test = new CPU();
+		Memory memory_test = new Memory();
+		HardDrive hard_drive_test = new HardDrive();
 		
 		ComputerFacade computer = new ComputerFacade(cpu_test, memory_test, hard_drive_test);
 		
 		computer.turnOn();
-		
+
 	}
 
 }
