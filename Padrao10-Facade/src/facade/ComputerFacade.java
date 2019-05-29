@@ -18,6 +18,7 @@ public class ComputerFacade {
 	
 	public void turnOn() {
 		cpu.start();
+		cpu.execute();
 		memory.load();
 		hard_drive.read();
 	}

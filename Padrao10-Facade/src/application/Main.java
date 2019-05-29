@@ -16,7 +16,7 @@ public class Main {
 		ComputerFacade computer = new ComputerFacade(cpu_test, memory_test, hard_drive_test);
 		
 		computer.turnOn();
-
+		
 	}
 
 }
