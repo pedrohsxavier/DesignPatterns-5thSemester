@@ -1,7 +1,6 @@
 package gof;
 
 public class Livro extends Publicacao {
-	
 	private String ISBN;
 
 	public String getISBN() {
