@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SuperHeroi implements Cloneable{
-	
 	private String nome;
 	private List<String> poderes;
 	
