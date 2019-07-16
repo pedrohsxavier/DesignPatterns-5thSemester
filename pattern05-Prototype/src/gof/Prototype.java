@@ -4,22 +4,21 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class Prototype {
-	
 	private static Map<String, SuperHeroi> liga = new TreeMap<String, SuperHeroi>();
 	
 	private static void loadSuperHerois() {
 		SuperHeroi fogo = new SuperHeroi("Fogo");
 		fogo.add("Bola de fogo");
-		fogo.add("IncÍndio");
+		fogo.add("Inc√™ndio");
 		fogo.add("Queima geral");
 		
-		SuperHeroi agua = new SuperHeroi("¡gua");
+		SuperHeroi agua = new SuperHeroi("√Ågua");
 		agua.add("Afogar");
 		agua.add("Chuva");
-		agua.add("InundaÁ„o");
+		agua.add("Inunda√ß√£o");
 		
 		Prototype.liga.put("FOGO", fogo);
-		Prototype.liga.put("¡GUA", agua);
+		Prototype.liga.put("√ÅGUA", agua);
 	}
 	
 	public static SuperHeroi get(String tipo) {
