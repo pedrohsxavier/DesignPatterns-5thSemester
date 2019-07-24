@@ -1,7 +1,6 @@
 package gof;
 
 public class IFCardAdapter implements Cartao {
-
 	private IFCard cartao;
 	
 	public IFCardAdapter() {
