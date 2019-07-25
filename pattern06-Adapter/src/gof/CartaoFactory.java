@@ -1,6 +1,7 @@
 package gof;
 
 public class CartaoFactory {
+	
 	public static Cartao getCartao(Bandeira bandeira) {
 		if (bandeira == Bandeira.MASTER) {
 			return new Master();
