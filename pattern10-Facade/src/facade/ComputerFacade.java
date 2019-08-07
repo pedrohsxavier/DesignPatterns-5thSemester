@@ -5,6 +5,7 @@ import model.HardDrive;
 import model.Memory;
 
 public class ComputerFacade {
+	
 	private CPU cpu = null;
 	private Memory memory = null;
 	private HardDrive hard_drive = null;
